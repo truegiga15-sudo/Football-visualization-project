@@ -1,0 +1,17 @@
+.progress {
+  width: 100%;
+  height: var(--space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  overflow: hidden;
+  background: var(--color-divider);
+}
+.progress::-webkit-progress-bar {
+  background: var(--color-divider);
+}
+.progress::-webkit-progress-value {
+  background: var(--color-primary);
+}
+.progress::-moz-progress-bar {
+  background: var(--color-primary);
+}

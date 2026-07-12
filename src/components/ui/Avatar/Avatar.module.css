@@ -1,0 +1,26 @@
+.sm,
+.md,
+.lg {
+  display: inline-grid;
+  place-items: center;
+  border-radius: var(--radius-circle);
+  background: var(--color-secondary);
+  color: var(--color-secondary-contrast);
+  font-weight: var(--font-weight-bold);
+  object-fit: cover;
+}
+.sm {
+  width: 1.75rem;
+  height: 1.75rem;
+  font-size: var(--font-size-caption);
+}
+.md {
+  width: 2.25rem;
+  height: 2.25rem;
+  font-size: var(--font-size-body-sm);
+}
+.lg {
+  width: 3rem;
+  height: 3rem;
+  font-size: var(--font-size-title);
+}

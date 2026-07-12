@@ -1,0 +1,14 @@
+.toast {
+  position: relative;
+  z-index: var(--z-toast);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface-elevated);
+  box-shadow: var(--shadow-floating-panel);
+  padding: var(--space-4);
+  color: var(--color-text-primary);
+}
+.toast strong {
+  display: block;
+  margin-bottom: var(--space-1);
+}

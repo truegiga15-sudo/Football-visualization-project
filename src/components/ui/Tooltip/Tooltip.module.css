@@ -1,0 +1,20 @@
+.root {
+  position: relative;
+  display: inline-flex;
+}
+.root[data-tooltip]:hover::after,
+.root[data-tooltip]:focus-within::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  z-index: var(--z-tooltip);
+  bottom: calc(100% + var(--space-2));
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  border-radius: var(--radius-md);
+  background: var(--color-tooltip);
+  color: var(--color-tooltip-text);
+  box-shadow: var(--shadow-tooltip);
+  padding: var(--space-2) var(--space-3);
+  font-size: var(--font-size-tooltip);
+}

@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-overlay);
+  background: var(--color-overlay);
+}
+.left,
+.right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: min(28rem, 100%);
+  background: var(--color-surface-elevated);
+  box-shadow: var(--shadow-floating-panel);
+  padding: var(--space-6);
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}

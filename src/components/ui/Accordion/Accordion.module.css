@@ -1,0 +1,14 @@
+.root {
+  display: grid;
+  gap: var(--space-2);
+}
+.item {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+}
+.item summary {
+  cursor: pointer;
+  font-weight: var(--font-weight-semibold);
+}

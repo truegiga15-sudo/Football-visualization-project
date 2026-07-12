@@ -1,0 +1,11 @@
+.alert {
+  display: flex;
+  gap: var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+.alert strong {
+  display: block;
+  margin-bottom: var(--space-1);
+}
