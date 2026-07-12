@@ -1,0 +1,10 @@
+.skeleton {
+  display: block;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(
+    90deg,
+    var(--color-surface),
+    var(--color-border),
+    var(--color-surface)
+  );
+}
